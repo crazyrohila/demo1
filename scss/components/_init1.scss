@@ -1,0 +1,29 @@
+body {
+  color: $white;
+}
+
+*, *:before, *:after {
+  @include box-sizing(border-box);
+}
+
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  vertical-align: bottom;
+}
+a {
+  text-decoration: none;
+}
+
+%clearfix {
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+}

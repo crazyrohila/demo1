@@ -1,0 +1,7 @@
+.header, .main, .footer, .carousel, .highlight {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  @extend %clearfix;
+}

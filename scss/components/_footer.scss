@@ -1,0 +1,39 @@
+.footer {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  color: $white;
+  .block {
+    padding: 10px;
+    .block__title {
+      font-weight: normal;
+    }
+  }
+  @media (min-width: 360px) {
+      .block--connect, .block--planner {
+        float: left;
+        width: 48%;
+      }
+      .block--connect {
+        margin-right: 4%;
+      }
+    }
+    @media (min-width: 700px) {
+      .block--WTH {
+        float: left;
+        width: 46%;
+        margin-right: 2%;
+      }
+      .block--connect, .block--planner {
+        width: 25%;
+      }
+      .block--connect {
+        margin-right: 2%;
+      }
+    }
+  .block--copyright {
+    width: 100%;
+    clear: both;
+    border-top: 1px solid $white;
+    font-style: italic;
+  }
+}

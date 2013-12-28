@@ -1,0 +1,62 @@
+.carosuel-wrapper {
+  background: lighten($gray, 5%);
+  .carousel {
+    position: relative;
+  }
+  .carosuel__control {
+    position: absolute;
+    left: 20px;
+    top: 30%;
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+  }
+}
+
+
+.highlight {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  .highlight__heading {
+    color: $darkgray;
+  }
+  .highlight__link, a {
+    color: $cyan;
+  }
+}
+
+
+.showcase {
+  padding: 0 5%;
+  position: relative;
+  .showcase__details {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    background: $red;
+    width: 30%;
+    padding: 10px 15px;
+  }
+  @media (max-width: 650px) {
+    position: static;
+    width: 100%;
+  }
+}
+
+.showcase__images {
+  overflow: hidden;
+  margin-bottom: 20px;
+  .showcase__image {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+    &:nth-child(2n+2) {
+      margin-right: 0;
+    }
+  }
+}
+.showcase-block {
+  margin-bottom: 20px;
+}

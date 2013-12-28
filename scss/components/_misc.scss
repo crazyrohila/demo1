@@ -1,0 +1,12 @@
+
+
+.header-wrapper, .footer-wrapper {
+  background: $cyan;
+}
+
+
+@media (max-width: 500px) {
+  body {
+    font-size: 12px;
+  }
+}

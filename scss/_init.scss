@@ -1,0 +1,35 @@
+// =============================================================================
+// Variables
+// =============================================================================
+
+// Fonts.
+$base-font-size:   16px; // The font size set on the root html element.
+$base-line-height: 24px; // This line-height determines the basic unit of vertical rhythm.
+
+$cyan: #34d1c6;
+$gray: #ccc;
+$darkgray: #7e7774;
+$white: #fff;
+$black: #000;
+$red: #df5c52;
+$fb: #5291bd;
+$tw: #53c1dd;
+$rss: #f6b14a;
+$pin: #d85557;
+
+// =============================================================================
+// Partials to be shared with all .scss files.
+// =============================================================================
+
+// Add Compass' IE and vendor prefix support variables.
+@import "compass/support";
+// Better clearfix.
+@import "compass/utilities/general/clearfix";
+// See http://compass-style.org/help/tutorials/spriting/
+@import "compass/utilities/sprites";
+// See http://compass-style.org/reference/compass/utilities/color/contrast/
+@import "compass/utilities/color/contrast";
+// CSS3 mixins.
+@import "compass/css3";
+// Helps set up a vertical rhythm.
+@import "compass/typography/vertical_rhythm";
