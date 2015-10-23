@@ -4,7 +4,7 @@ Feature: Demo1
   We need to be able to have access to a Demo Page
 
   @api
-  Scenario Outline: Visit blog post page
+  Scenario Outline: Visit Demo Page
     Given I am an anonymous user
-    When  I visit "http://crazyrohila.github.io/demo1/"
+    When  I visit "http://crazyrohila.github.io/demo1"
     Then  I should the text "A brand communication agency" under the main content
