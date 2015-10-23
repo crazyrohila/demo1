@@ -1,4 +1,4 @@
 default:
   extensions:
     Behat\MinkExtension:
-      base_url: "http://gizra.com"
+      base_url: "http://crazyrohila.github.io/demo1"
